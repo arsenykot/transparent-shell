@@ -116,6 +116,7 @@
 .calendar-today:selected:hover,
 .calendar-today:focus,
 .calendar-today:selected:focus {
+<<<<<<< HEAD
 	background-color: @accent_bg_color;
 	brightness: 1.05;
 }
@@ -133,6 +134,15 @@
 	background-size: contain;
 }
 
+=======
+	brightness: 1.05;
+}
+
+.calendar .calendar-day-with-events {
+	font-weight: 700;
+}
+
+>>>>>>> master
 /* weekend day button */
 .calendar .calendar-nonwork-day,
 /* up to 44 */

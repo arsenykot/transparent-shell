@@ -1,27 +1,35 @@
+/* Borders */
+
+.popup-menu-content,
+.quick-settings,
+.notification-banner,
+.osd-window,
+.modal-dialog,
+.switcher-list {
+	border: 2px solid rgba(211, 211, 211, 0.2);
+}
+
+
+/* Background colors */
 .popup-menu-content, 
 .quick-settings { 
     background: rgba(32, 32, 32, 0.75);
-    border: 1px solid rgba(32, 32, 32, 0.75);
 }
 .notification-banner {
     background: rgba(32, 32, 32, 0.7) ;
-    border: 1px solid rgba(32, 32, 32, 0.65);
 }
 
 .osd-window {
     border-radius: 12px;
     background: rgba(32, 32, 32, 0.75);
-    border: 1px solid rgba(32, 32, 32, 0.65);
 }
 
 .modal-dialog {
     background: rgba(32, 32, 32, 0.75);
-    border: 1px solid rgba(32, 32, 32, 0.65);
 }
 
 .switcher-list {
     background: rgba(32, 32, 32, 0.75);
-    border: 1px solid rgba(32, 32, 32, 0.65);
 }
 
 .calendar {
@@ -116,34 +124,20 @@
 .calendar-today:selected:hover,
 .calendar-today:focus,
 .calendar-today:selected:focus {
-<<<<<<< HEAD
 	background-color: @accent_bg_color;
 	brightness: 1.05;
 }
 
 /* if day has event */
 .calendar .calendar-day-with-events {
-	background-image: url("./calendar-event.svg");
 	background-size: contain;
 	font-weight: 700;
-}
-
-.calendar .calendar-today.calendar-day-with-events {
-	background-image: url("./calendar-event-today.svg") !important;
-	/* override because of gdm */
-	background-size: contain;
-}
-
-=======
-	brightness: 1.05;
 }
 
 .calendar .calendar-day-with-events {
 	font-weight: 700;
 }
 
->>>>>>> master
-/* weekend day button */
 .calendar .calendar-nonwork-day,
 /* up to 44 */
 .calendar-weekend {
@@ -162,7 +156,6 @@
 .calendar .calendar-other-month-day.calendar-day-with-events,
 /* up to 44 */
 .calendar-other-month.calendar-day-with-events {
-	/* override because of gdm */
 	background-size: contain;
 }
 
